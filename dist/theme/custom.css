@@ -372,8 +372,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .header::after {
   content: "";
   display: inline-block;
-  background-image: url("https://ms.hereon.de/imperia/md/assets/main/institutes/surface_science/images/fittosize_0_96_b2ac43e311c87939e1655516a0c52832_logo_vipcoat.png");
-  /* Replace with your logo image path */
+  background-image: url("../../VIPCOAT/assets/vipcoatlogo.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 180px;
@@ -411,7 +410,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .footer-text {
-  font-size: 18px;
+  font-size: 15px;
   color: #0098d3;
 }
 
@@ -421,4 +420,64 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .content p {
   font-size: 28px;
+}
+
+.custom-header {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-right: 25px;
+}
+
+.title {
+  color: orange;
+  font-size: 40px;
+  margin-right: auto;
+}
+
+.logo {
+  width: 180px;
+  height: 90px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 125px;
+}
+
+.image {
+  width: 315px;
+}
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.sub-header p {
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.two-column-layout {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+.column p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.flag {
+  width: 80px;
+  height: 50px;
 }
