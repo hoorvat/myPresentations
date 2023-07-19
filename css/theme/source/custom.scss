@@ -47,7 +47,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 5px dotted orange;
+    border-bottom: 8px dotted orange;
   }
   
   .header::after {
@@ -56,8 +56,8 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
     background-image: url("../../VIPCOAT/assets/vipcoatlogo.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 180px;
-    height: 90px;
+    width: 360px;
+    height: 180px;
     margin-right: 10px;
   }
 
@@ -71,7 +71,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
     color: #00477b;
     text-align: left;
     margin-bottom: 0px;
-    font-size: 40px;
+    font-size: 80px;
     font-weight: 700;
   }
   
@@ -80,7 +80,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
     color: #0098d3;
     text-align: left;
     margin-bottom: -20px;
-    font-size: 32px;
+    font-size: 64px;
     font-weight: 700;
   }
 
@@ -91,12 +91,12 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
   }
   
   .footer-text {
-    font-size: 15px;
+    font-size: 26px;
     color: #0098d3;
   }
 
   .content {
-    height: 600px;
+    height: 900px;
   }
 
   .content p {
@@ -112,13 +112,13 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
   
   .title {
     color: orange;
-    font-size: 40px;
+    font-size: 80px;
     margin-right: auto;
   }
   
   .logo {
-    width: 180px;
-    height: 90px;
+    width: 360px;
+    height: 180px;
   }
   
   .image-container {
@@ -128,7 +128,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
   }
   
   .image {
-    width: 315px;
+    width: 630px;
   }
 
   .sub-header {
@@ -139,7 +139,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
   }
 
   .sub-header p {
-    font-size: 30px;
+    font-size: 50px;
     margin-left: 40px;
   }
 
@@ -154,11 +154,11 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
   }
 
   .column p {
-    font-size: 15px;
+    font-size: 30px;
     text-align: left;
   }
 
   .flag {
-    width: 80px;
-    height: 50px;
+    width: 200px;
+    height: 120px;
   }

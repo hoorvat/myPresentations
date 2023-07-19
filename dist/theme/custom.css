@@ -366,7 +366,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 5px dotted orange;
+  border-bottom: 8px dotted orange;
 }
 
 .header::after {
@@ -375,8 +375,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   background-image: url("../../VIPCOAT/assets/vipcoatlogo.png");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 180px;
-  height: 90px;
+  width: 360px;
+  height: 180px;
   margin-right: 10px;
 }
 
@@ -390,7 +390,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   color: #00477b;
   text-align: left;
   margin-bottom: 0px;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: 700;
 }
 
@@ -399,7 +399,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   color: #0098d3;
   text-align: left;
   margin-bottom: -20px;
-  font-size: 32px;
+  font-size: 64px;
   font-weight: 700;
 }
 
@@ -410,12 +410,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .footer-text {
-  font-size: 15px;
+  font-size: 26px;
   color: #0098d3;
 }
 
 .content {
-  height: 600px;
+  height: 900px;
 }
 
 .content p {
@@ -431,13 +431,13 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .title {
   color: orange;
-  font-size: 40px;
+  font-size: 80px;
   margin-right: auto;
 }
 
 .logo {
-  width: 180px;
-  height: 90px;
+  width: 360px;
+  height: 180px;
 }
 
 .image-container {
@@ -447,7 +447,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .image {
-  width: 315px;
+  width: 630px;
 }
 
 .sub-header {
@@ -458,7 +458,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .sub-header p {
-  font-size: 30px;
+  font-size: 50px;
   margin-left: 40px;
 }
 
@@ -473,11 +473,11 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .column p {
-  font-size: 15px;
+  font-size: 30px;
   text-align: left;
 }
 
 .flag {
-  width: 80px;
-  height: 50px;
+  width: 200px;
+  height: 120px;
 }
