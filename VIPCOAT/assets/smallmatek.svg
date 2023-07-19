@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="135.56516mm"
-   height="70.478996mm"
-   viewBox="0 0 135.56516 70.478999"
+   width="600mm"
+   height="311.93411mm"
+   viewBox="0 0 600.00002 311.93412"
    version="1.1"
    id="svg12464"
    xml:space="preserve"
@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.0570195"
-     inkscape:cx="107.3774"
-     inkscape:cy="228.47261"
+     inkscape:zoom="0.52850974"
+     inkscape:cx="1496.6612"
+     inkscape:cy="795.63339"
      inkscape:window-width="1846"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -39,8 +39,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-55.034756,-100.82384)"><image
-       width="135.56516"
-       height="70.478996"
+       width="600"
+       height="311.93411"
        preserveAspectRatio="none"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtkAAAF7CAIAAACIEwCxAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
 nIy9eY8cx3k/XtU997WzM3vvcg9SlKhblijJimXJCWInNuIDQQADAQzkbeUNJIiBxEkcIwjgQ5Al
@@ -4281,12 +4281,15 @@ wVGHYpyTk5PRaPT/Absfnw6KiDmAAAAAAElFTkSuQmCC
        x="55.034756"
        y="100.82384" /><text
        xml:space="preserve"
-       style="font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#ffffff;stroke:#000000;stroke-width:0;stroke-dasharray:none"
-       x="156.33659"
-       y="170.05009"
-       id="text15676"><tspan
+       style="font-size:18.7364px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#ffffff;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       x="503.38818"
+       y="407.21344"
+       id="text15676"
+       inkscape:export-filename="smallmatek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan15674"
          style="fill:#ffffff;stroke-width:0;stroke-dasharray:none"
-         x="156.33659"
-         y="170.05009">©SMALLMATEK</tspan></text></g></svg>
+         x="503.38818"
+         y="407.21344">©SMALLMATEK</tspan></text></g></svg>
