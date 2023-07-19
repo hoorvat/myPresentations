@@ -1,0 +1,104 @@
+/**
+ * A simple theme for reveal.js presentations, similar
+ * to the default theme. The accent color is darkblue.
+ *
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainColor: #000;
+$headingFont: 'News Cycle', Impact, sans-serif;
+$headingColor: #000;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #fff;
+$linkColor: #00008B;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.slides {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px dotted orange;
+  }
+  
+  .header::after {
+    content: "";
+    display: inline-block;
+    background-image: url("https://ms.hereon.de/imperia/md/assets/main/institutes/surface_science/images/fittosize_0_96_b2ac43e311c87939e1655516a0c52832_logo_vipcoat.png"); /* Replace with your logo image path */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 90px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .header-title h4 {
+    color: #00477b;
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .header-title h6 {
+    margin: 0px;
+    color: #0098d3;
+    text-align: left;
+    margin-bottom: -20px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+  }
+  
+  .footer-text {
+    font-size: 18px;
+    color: #0098d3;
+  }
+
+  .content {
+    height: 600px;
+  }
+
+  .content p {
+    font-size: 28px;
+  }
