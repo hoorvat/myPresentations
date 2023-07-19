@@ -413,8 +413,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .flag {
-  width: 200px;
-  height: 120px;
+  width: 12vw;
 }
 
 .header {
