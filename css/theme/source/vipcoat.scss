@@ -39,126 +39,135 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 @import "../template/theme";
 // ---------------------------------------------
 
-.slides {
-    width: 100%;
+
+// TITLE PAGE
+.title {
+  color: orange;
+  font-size: 80px;
+  margin-right: auto;
+  margin-top: -5px !important;
 }
 
+.logo {
+  width: 300px;
+  height: 150px;
+  padding-right: 12px;
+  margin-top: -5px !important;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.image {
+  width: 620px;
+}
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+.sub-header p {
+  font-size: 50px;
+  margin-left: 40px;
+}
+
+.two-column-layout {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+.column p {
+  font-size: 25px;
+  text-align: left;
+}
+
+.flag {
+  width: 200px;
+  height: 120px;
+}
+
+// SLIDE PAGE
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 8px dotted orange;
-  }
+    margin-top: -10px;
+    margin-right: 0
+}
   
-  .header::after {
+.header::after {
     content: "";
     display: inline-block;
     background-image: url("../../VIPCOAT/assets/vipcoatlogo.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 360px;
-    height: 180px;
-    margin-right: 10px;
-  }
+    width: 300px;
+    height: 150px;
+    margin-right: 12px;
+    margin-top: 5px;
+}
 
-  .header-title {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-  }
+.header-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.header-title h4 {
+  color: #00477b;
+  text-align: left;
+  margin-bottom: 0px;
+  font-size: 64px;
+  font-weight: 700;
+}
   
-  .header-title h4 {
-    color: #00477b;
-    text-align: left;
-    margin-bottom: 0px;
-    font-size: 80px;
-    font-weight: 700;
-  }
+.header-title h6 {
+  margin: 0px;
+  color: #0098d3;
+  text-align: left;
+  margin-bottom: -20px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px !important;
+  left: 20px;
+}
+
+.footer-text {
+  font-size: 26px;
+  color: #0098d3;
+}
+
+.content {
+  height: 810px;
+}
+
+.content p {
+  font-size: 28px;
+}
+
+.custom-header {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  margin-left: 25px;
+}
   
-  .header-title h6 {
-    margin: 0px;
-    color: #0098d3;
-    text-align: left;
-    margin-bottom: -20px;
-    font-size: 64px;
-    font-weight: 700;
-  }
-
-  .footer {
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-  }
-  
-  .footer-text {
-    font-size: 26px;
-    color: #0098d3;
-  }
-
-  .content {
-    height: 900px;
-  }
-
-  .content p {
-    font-size: 28px;
-  }
-
-  .custom-header {
-    display: flex;
-    align-items: center;
-    margin-top: -20px;
-    margin-right: 25px;
-  }
-  
-  .title {
-    color: orange;
-    font-size: 80px;
-    margin-right: auto;
-  }
-  
-  .logo {
-    width: 360px;
-    height: 180px;
-  }
-  
-  .image-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 125px;
-  }
-  
-  .image {
-    width: 630px;
-  }
-
-  .sub-header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    justify-content: space-between;
-  }
-
-  .sub-header p {
-    font-size: 50px;
-    margin-left: 40px;
-  }
-
-  .two-column-layout {
-    display: flex;
-    margin-bottom: 18px;
-  }
-  
-  .column {
-    flex: 1;
-    padding: 20px;
-  }
-
-  .column p {
-    font-size: 30px;
-    text-align: left;
-  }
-
-  .flag {
-    width: 200px;
-    height: 120px;
-  }
