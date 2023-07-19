@@ -32,6 +32,10 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 @import "../template/theme";
 // ---------------------------------------------
 
+.reveal {
+    margin: 0;
+}
+
 .wikki-slide {
     margin: 0;
     padding: 0;
@@ -96,7 +100,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
     font-size: 16pt;
     color: black;
     background-color: transparent;
-    bottom: 50px;
+    bottom: 30px;
     right: 50px;
 }
 
