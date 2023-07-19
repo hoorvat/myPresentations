@@ -1,0 +1,108 @@
+/**
+ * A simple theme for reveal.js presentations, similar
+ * to the default theme. The accent color is darkblue.
+ *
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Helvetica';
+$mainColor: #000;
+$headingFont: 'Helvetica', Impact, sans-serif;
+$headingColor: #000;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #fff;
+$linkColor: #00008B;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.wikki-slide {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(to right, #c2c2c2, #f9f9f9);
+    overflow: hidden;
+}
+
+.wikki-slide::after {
+    content: '';
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    width: 220px;
+    height: 53px;
+    background-image: url("../../WIKKI/assets/wikkiRgb2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    font-size: 52px;
+    color: black;
+    font-weight: bold;
+}
+
+.white-block {
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    bottom: 100px;
+    right: 0;
+    background-color: white;
+}
+
+.vertical-line {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    bottom: 100px;
+    width: 2px;
+    background: linear-gradient(to bottom, #c3c3c3 0, black 100px, #c3c3c3);
+}
+
+.horizontal-line {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(to right, #c3c3c3 0, black 100px, #c3c3c3);
+}
+
+.reveal .slide-number {
+    font-size: 16pt;
+    color: black;
+    background-color: transparent;
+    bottom: 50px;
+    right: 50px;
+}
+
+.slide-number::before {
+    content: "slide:";
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+}
